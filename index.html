@@ -8,62 +8,65 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="icon" type="image/png" href="images\favicon.png">
-        <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon"> -->
+         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
-<body class="bg-[#131110] mx-[100px]">
-    <header class="max-w-[1440px] m-auto sticky top-0 z-1 bg-[#131110] ">
-        <div class=" flex justify-between items-center py-3 border-b border-[#F7941D]/20">
+    
+    <body class="bg-[#131110]">
+
+
+
+    <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
+        <div class= "max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
             <div>
-            <img class="w-[250px]" src="images\logo.png" alt="">
+           <a href=""><img class="w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png"alt="Logo" ></a>
         </div>
         <div>
-            <ul class="flex gap-[40px] font-['Poppins'] text-[#B5ADA5] font-medium">
-                <li><a href="index.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
-                <li><a href="menu.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
-                <li><a href="gallery.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
-                <li><a href="contact.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
+            <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
+                <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
+                <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
+                <li><a href="gallery.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
+                <li><a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
-        <div class="">
-            <button class="font-['Poppins'] mr-[20px] text-[#E68A4D] border p-[10px] rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300"> <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
+        <div class="hidden md:block">
+            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300"> <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
         </div>
         </div>
-    </header>
+    </header>   <!--responsive -->
 
-    <section class="max-w-[1440px] m-auto pt-[80px] ">
-        <div class="flex ">
-            <div class="max-w-[450px] flex flex-col gap-[40px] ">
-                <span class="font-['Poppins'] text-sm text-[#F7941D] border border-[#F7941D]/60 px-4 py-2 tracking-[0.12em] w-fit rounded-full" >WELCOME TO The Baithak </span>
-                <div class="font-['Playfair_Display'] text-7xl ">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] ">
+        <div class="lg:flex gap-10">
+            <div class="md:max-w-[450px] lg:max-w-[450px] text-center m-auto lg:m-0 lg:text-left flex flex-col gap-[20px] lg:gap-[40px]">
+                <span class=" mx-auto lg:mx-0 font-['Poppins'] text-[#F7941D] border border-[#F7941D]/60 w-fit rounded-full  text-xs  px-2 py-1 md:text-sm px-4 py-2 tracking-[0.12em] " >WELCOME TO The Baithak </span>
+                <div class="font-['Playfair_Display'] text-4xl md:text-6xl lg:text-7xl ">
                     <h1 class="text-[#F5EFE6] leading-[0.9]">A LITTLE SIP.</h1>
                     <h1 class="text-[#E68A4D] leading-[0.9]">LOT OF FLAVOR.</h1>
                 </div>
                 <div>
-                    <p class="max-w-[420px] font-['Poppins'] text-base leading-8 text-[#B8B2AA]">At The Baithak Café, every sip crafted with care and every bite is made to delight. Come, relax, and enjoy delicious flavors in a warm and welcoming space.</p>
+                    <p class="max-w-[420px] font-['Poppins'] text-[#B8B2AA] text-xs leading-5 md:text-base md:leading-8 ">At The Baithak Café, every sip crafted with care and every bite is made to delight. Come, relax, and enjoy delicious flavors in a warm and welcoming space.</p>
                 </div>
-                <div class="flex gap-[10px]">
-                    <button class=" border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300">EXPLORE OUR MENU </button>
-                    <button class="border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300">DISCOVER The Baithak</button>
+                <div class="flex flex-col gap-2 md:flex-row md:gap-[10px]">
+                    <button class=" border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300 uppercase">EXPLORE OUR MENU </button>
+                    <button class="border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300 uppercase">DISCOVER The Baithak</button>
                 </div>
             </div>
             <div>
-                <img class="w-full h-[560px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-101 transition duration-300 z-0"  src="images/image3.jpg" alt="">
+                <img class="mt-10 lg:mt-0 w-fit h-auto lg:h-[560px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-101 transition duration-300 z-0"  src="images/image3.jpg" alt="">
             </div>
         </div>
-    </section>
+    </section>      --responsive but md me text sahi se center nhi ho rha
 
-    <section class="max-w-[1440px] m-auto py-[100px]">
-        <div class="flex justify-between">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[20px] lg:px-[50px] lg:pt-[40px] ">
+        <div class="lg:flex justify-between">
             <div class="flex gap-[20px] shrink-0">
-                <img class="w-[180px] h-[400px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image5.jpg" alt="">
-                <img class="w-[180px] h-[400px] object-cover rounded-[40px] mt-10 hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image1.jpg" alt="">
-                <img class="w-[180px] h-[400px] object-cover rounded-[40px] mt-20 hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image2.jpg" alt="">
+                <img class="w-[100px] h-[200px] md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[400px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image5.jpg" alt="">
+                <img class="w-[100px] h-[200px] md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[400px] object-cover rounded-[40px] mt-10 hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image1.jpg" alt="">
+                <img class="w-[100px] h-[200px] md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[400px] object-cover rounded-[40px] mt-20 hover:text-[#131110] hover:rotate-1 transition duration-300" src="images\image2.jpg" alt="">
             </div>
-            <div class="max-w-[520px]">
+            <div class="md:max-w-[600px] lg:max-w-[520px] text-center m-auto pt-10 md:pt-20 lg:pt-0 lg:m-0 lg:text-left ">
                 <p class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">OUR STORY</p>
-                <div class="font-['Playfair_Display'] text-7xl mt-4">
+                <div class="font-['Playfair_Display'] text-4xl md:text-6xl lg:text-7xl ">
                     <h1 class="text-[#F5EFE6] leading-tight">MORE THAN JUST</h1>
                     <h1 class="text-[#E68A4D] leading-tight">A CAFÉ.</h1>
                 </div>
@@ -72,21 +75,21 @@
                 <button class="mt-10 border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300">  DISCOVER OUR STORY  </button>
             </div>
         </div>
-    </section>
+    </section>   --responsive
 
-    <section class="max-w-[1440px] m-auto ">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] ">
         <div class="">
-            <div>
+            <div class="text-center m-auto pt-10 md:pt-20 lg:pt-0 lg:m-0 lg:text-left ">
                 <p class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">WHY CHOOSE The Baithak</p>
-            <div class="font-['Playfair_Display'] text-7xl mt-4">
+            <div class="font-['Playfair_Display'] text-4xl md:text-6xl lg:text-7xl ">
                 <h1 class="text-[#F5EFE6] leading-tight">MORE THAN A PLACE TO EAT.</h1>
                 <h1 class="text-[#E68A4D] leading-tight">IT'S AN EXPERIENCE.</h1>
             </div>
             </div>
-            <div class="flex justify-between my-[80px] pb-[40px]">
-                <div class="shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
+            <div class="flex flex-col gap-10 pt-10 items-center md:flex-row md:my-[80px] md:pb-[40px] md:gap-4 md:justify-between ">
+                <div class="w-[350px] shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
                     <img class="w-[350px] h-[250px] object-cover " src="images\download (1).jpg" alt="">
-                    <div class="w-[350px] bg-[#D6D3D1] p-6 flex flex-col gap-4">
+                    <div class="bg-[#D6D3D1] p-6 flex flex-col gap-4">
                         <h3 class="font-['Playfair_Display'] text-2xl text-[#1C1917] ">FRESHLY BREWED</h3>
                         <p class="font-['Poppins'] text-[#57534E] text-[15px] leading-7">Rich flavors and carefully crafted coffee in every cup.</p>
                         <div class="flex justify-between items-center">
@@ -95,9 +98,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
+                <div class="w-[350px] shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
                     <img class="w-[350px] h-[250px] object-cover" src="images\download (2).jpg" alt="">
-                    <div class="w-[350px] bg-[#D6D3D1] p-6 flex flex-col gap-4">
+                    <div class="bg-[#D6D3D1] p-6 flex flex-col gap-4">
                         <h3 class="font-['Playfair_Display'] text-2xl text-[#1C1917]">DELICIOUS BITES</h3>
                         <p class="font-['Poppins'] text-[#57534E] text-[15px] leading-7">Fresh ingredients and delightful flavors in every bite.</p>
                         <div class="flex justify-between items-center">
@@ -106,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
+                <div class="hidden lg:block shadow-[0_10px_30px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(180,120,70,0.25)] overflow-hidden rounded-[30px]">
                     <img class="w-[350px] h-[250px] object-cover" src="images\gallery10.jpg" alt="">
                     <div class="w-[350px] bg-[#D6D3D1] p-6 flex flex-col gap-4">
                         <h3 class="font-['Playfair_Display'] text-2xl text-[#1C1917]">WARM AMBIENCE</h3>
@@ -119,20 +122,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>     --responsive
 
-    <section class="max-w-[1440px] m-auto py-[40px] ">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[20px] lg:px-[50px] lg:py-0 ">
         <div class="flex flex-col gap-4 text-center">
-            <span class="font-[Poppins] text-[#F7941D] text-sm tracking-[0.2em] uppercase">OUR SIGNATURE MENU</span>
-            <div>
-                <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight">Crafted Fresh. </h1>
-            <h1 class="font-['Playfair_Display'] text-7xl text-[#E68A4D] leading-tight">Served with Love.</h1>
+            <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">OUR SIGNATURE MENU</span>
+            <div class="font-['Playfair_Display'] leading-tight text-4xl md:text-6xl lg:text-7xl ">
+                <h1 class=" text-[#F5EFE6] ">Crafted Fresh. </h1>
+                <h1 class="text-[#E68A4D]">Served with Love.</h1>
             </div>
-            <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">A curated selection of The Baithak's finest creations, crafted with fresh ingredients, rich flavors, <br>and a touch of passion.</p>
+            <p class="font-['Poppins'] text-[#B8B2AA] text-[16px] leading-8 mt-6 ">A curated selection of The Baithak's finest creations, crafted with fresh ingredients, rich flavors, <br>and a touch of passion.</p>
         </div>
-        <div class="flex justify-between mt-10">
-            <div class="w-[300px] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
-                <img class="w-fit h-[200px] hover:scale-102 transition duration-300" src="images\Brodo vegetale.jpg" alt="">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+            <div class="w-full transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
+                <img class="w-full h-[200px] object-cover hover:scale-105 transition duration-300" src="images\Brodo vegetale.jpg" alt="">
                 <div class="bg-[#1C1917] p-4 flex flex-col gap-[10px]">
                     <h3 class="font-[Playfair_Display] text-xl text-[#f5e8d8] ">Seasonal Vegetable Medley Soup</h3>
                     <span class="font-[Poppins] text-[15px] leading-7 text-[#99a1af]">Fresh garden vegetables simmered with aromatic herbs and comforting spices.</span>
@@ -142,19 +145,19 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[300px] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
-                <img class="w-fit h-[200px] hover:scale-102 transition duration-300" src="images\dessert.jpg" alt="">
+            <div class="w-full transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
+                <img class="w-full h-[200px] object-cover hover:scale-105 transition duration-300" src="images\dessert.jpg" alt="">
                 <div class="bg-[#1C1917] p-4 flex flex-col gap-[10px]">
                     <h3 class="font-[Playfair_Display] text-xl text-[#f5e8d8] ">Strawberry Cream Cheesecake</h3>
-                    <span class="font-[Poppins] text-[15px] leading-7 text-[#99a1af]">Creamy cheesecake layered with luscious strawberry sauce and a buttery biscuit base.</span>
+                    <span class="font-[Poppins] text-[15px] leading-7 text-[#99a1af] pt-7">Creamy cheesecake layered with luscious strawberry sauce and a buttery biscuit base.</span>
                     <div class="flex justify-between items-center">
                         <span class="font-[Playfair_Display] text-xl text-[#E68A4D]">₹199</span>
                         <span class="font-[Playfair_Display] text-xs text-[#E68A4D] border p-[5px] rounded-full hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">Order Now</span>
                     </div>
                 </div>
             </div>
-            <div class="w-[300px] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
-                <img class="w-fit h-[200px] hover:scale-102 object-cover transition duration-300" src="images\sandwich.jpg" alt="">
+            <div class="w-full transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
+                <img class="w-full h-[200px] object-cover hover:scale-105 transition duration-300" src="images\sandwich.jpg" alt="">
                 <div class="bg-[#1C1917] p-4 flex flex-col gap-[10px]">
                     <h3 class="font-[Playfair_Display] text-xl text-[#f5e8d8] ">The Baithak Veggie Melt</h3>
                     <span class="font-[Poppins] text-[15px] leading-7 text-[#99a1af] mt-7">Grilled bread layered with smoky paneer, fresh vegetables, creamy sauce, and aromatic spices.</span>
@@ -164,8 +167,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[300px] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
-                <img class="w-fit h-[200px] hover:scale-102 transition duration-300" src="images\pasta.jpg" alt="">
+            <div class="w-full transition-all duration-300 hover:shadow-[0_10px_30px_rgba(230,138,77,0.25)] overflow-hidden">
+                <img class="w-full h-[200px] object-cover hover:scale-105 transition duration-300" src="images\pasta.jpg" alt="">
                 <div class="bg-[#1C1917] p-4 flex flex-col gap-[10px]">
                     <h3 class="font-[Playfair_Display] text-xl text-[#f5e8d8] ">Creamy Pesto Pasta</h3>
                     <span class="font-[Poppins] text-[15px] leading-7 text-[#99a1af] mt-7">Creamy pasta tossed with fresh herbs, green vegetables, and a flavorful basil-infused sauce.</span>
@@ -176,15 +179,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>     --responsive
 
-    <section class="max-w-[1440px] m-auto py-[60px] mt-10">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="flex flex-col gap-4 text-center">
-            <span class="font-[Poppins] text-[#F7941D] text-sm tracking-[0.2em] uppercase">MOMENTS</span>
-            <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight"> WORTH LINGERING OVER .</h1>
-            <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">A glimpse into The Baithak, where warm corners, soulful flavours, <br>and meaningful conversations come together to create moments worth remembering.</p>
+            <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">MOMENTS</span>
+            <h1 class="font-['Playfair_Display'] text-[#F5EFE6] leading-tight text-4xl md:text-6xl lg:text-7xl"> WORTH LINGERING OVER .</h1>
+            <p class="font-['Poppins'] text-[#B8B2AA] text-[16px] leading-8 mt-6 ">A glimpse into The Baithak, where warm corners, soulful flavours, <br>and meaningful conversations come together to create moments worth remembering.</p>
         </div>
-        <div class="grid grid-cols-4 gap-5 my-10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5 my-10">
             <img class="col-span-2 row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover"
             src="images/Industrial Chic Café & Restaurant Interior _ Modern 3D Visualization.jpg" alt="">
             
@@ -200,17 +203,17 @@
             
             <img class="col-span-2 w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images/Coffee Shop (1).jpg" alt="">
         </div>
-    </section>
+    </section>       --responsive
 
-    <section class="max-w-[1440px] m-auto py-[60px] mt-10">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="flex flex-col gap-4 text-center">
-            <span class="font-[Poppins] text-[#F7941D] text-sm tracking-[0.2em] uppercase">KIND WORDS</span>
-            <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight">  WHAT OUR <span class="text-[#E68A4D] ">GUESTS</span> <br> ARE SAYING.</h1>
-            <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">A few words from the people who have
+            <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">KIND WORDS</span>
+            <h1 class="font-['Playfair_Display'] text-[#F5EFE6] leading-tight text-4xl md:text-6xl lg:text-7xl ">  WHAT OUR <span class="text-[#E68A4D] ">GUESTS</span> <br> ARE SAYING.</h1>
+            <p class="font-['Poppins'] text-[#B8B2AA] text-[16px] leading-8 mt-6 ">A few words from the people who have
           shared moments at The Baithak.</p>
         </div>
 
-        <div class="flex gap-4 my-10">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 my-10">
             <div class="bg-[#1C1917] p-7 rounded-2xl border hover:border-[#E68A4D]/60 hover:shadow-[0_0_20px_rgba(230,138,77,0.15)] transition-all duration-300">
                 <div class="flex text-yellow-800">
                     <i class="fa-solid fa-star"></i>
@@ -281,16 +284,16 @@
             
         </div>
 
-    </section>
+    </section>        --responsive
 
-    <section class="max-w-[1440px] m-auto py-[60px] px-20 mt-10 flex">
-        <div class="flex gap-30">
-            <div class="w-[50%] flex flex-col gap-10 text-center">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
+        <div class="lg:flex lg:gap-30">
+            <div class="w-full lg:w-[50%] flex flex-col gap-10 text-center">
                 <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">COME, STAY A WHILE</span>
-                <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight">Your Table Is
+                <h1 class="font-['Playfair_Display'] text-[#F5EFE6] leading-tight text-4xl md:text-6xl lg:text-7xl">Your Table Is
                     <span class="text-[#E68A4D]">Waiting.</span>
                 </h1>
-                <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">At The Baithak, every visit is more than just a meal. It's a chance to slow down, enjoy soulful flavours, share meaningful conversations, and create moments worth remembering. Whether you're meeting friends,spending time with family, or simply enjoying your own quiet corner,were here to make every visit feel special.</p>
+                <p class="font-['Poppins'] text-[#B8B2AA] text-[16px] leading-8 mt-6 ">At The Baithak, every visit is more than just a meal. It's a chance to slow down, enjoy soulful flavours, share meaningful conversations, and create moments worth remembering. Whether you're meeting friends,spending time with family, or simply enjoying your own quiet corner,were here to make every visit feel special.</p>
                 
                 <div class=" mx-auto text-left">
                     <ul class="font-['Poppins'] text-lg text-[#B8B2AA] ">
@@ -300,7 +303,7 @@
                     </div>
                     <button class="w-fit mx-auto font-['Poppins'] text-sm bg-[#E68A4D] text-[#131110] px-8 py-3 rounded-lg hover:bg-[#F5EFE6] hover:text-[#E68A4D] transition duration-300">EXPERIENCE THE BAITHAK</button>
                 </div>
-            <div class=" py-10 px-5 rounded-xl bg-[#1C1917] border border-yellow-800">
+            <div class=" py-10 px-5 rounded-xl bg-[#1C1917] border border-yellow-800 mt-10 lg:mt-0 md:mx-20 lg:mx-0">
                 <h3 class="font-[Playfair_Display] text-3xl text-[#F5EFE6] pb-4">Reserve a Table</h3>
                 <form class="font-[Poppins] grid grid-cols-2 gap-6 ">
                     <div>
@@ -346,20 +349,20 @@
                 </form>
             </div>
             </div>
-        </section>
+        </section>    --responsive
 
-    <footer class="max-w-[1440px] m-auto py-[60px] mt-10 bg-[#1C1917] px-[80px]">
-        <div class="flex gap-20">
-            <div class="w-[40%] flex flex-col gap-4 text-left">
+    <footer class="max-w-[1440px] m-auto bg-[#1C1917] px-5 md:px-[40px] py-[40px] lg:px-[50px] lg:py-[80px]">
+        <div class="md:flex gap-20">
+            <div class="w-full md:w-[40%] flex flex-col gap-4 text-left">
                 <span class="font-['Playfair_Display'] text-[#F5EFE6] text-4xl tracking-[0.2em] uppercase">THE BAITHAK </span>
                 <h1 class="font-['Poppins'] text-sm text-[#E68A4D] leading-tight">Where food meets conversation.</h1>
-                <p class="font-['Poppins'] text-sm leading-8 text-[#B8B2AA] ">A warm space for soulful flavours, handcrafted coffee, and meaningful moments. .</p>
+                <p class="font-['Poppins'] text-sm leading-8 text-[#B8B2AA] ">A warm space for soulful flavours, <br>handcrafted coffee,<br> and meaningful moments. .</p>
                 <div>
                     <ul class="text-[#B8B2AA] text-sm pt-5 flex gap-5">
-                        <i class="fa-brands fa-instagram text-[#E1306C] text-xl"></i>
-                        <i class="fa-brands fa-facebook text-[#1877F2] text-xl"></i>
-                        <i class="fa-brands fa-whatsapp text-[#25D366] text-xl"></i>
-                        <i class="fa-solid fa-location-dot text-[#EA4335] text-xl"></i>
+                        <a href=""><i class="fa-brands fa-instagram text-[#E1306C] text-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook text-[#1877F2] text-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp text-[#25D366] text-xl"></i></a>
+                        <a href=""><i class="fa-solid fa-location-dot text-[#EA4335] text-xl"></i></a>
                     </ul>
                 </div>
             </div>
@@ -389,11 +392,9 @@
                         <li>Special Offers </li>
                     </ul>
                 </div>
-                <div>
+                <div class="hidden lg:block">
                     <span class="text-[#F5EFE6] text-sm uppercase"> INFORMATION </span>
                     <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                        <li>About Us </li>
-                        <li> Contact </li>
                         <li> Privacy Policy</li>
                         <li> Terms & Conditions </li>
                     </ul>
@@ -401,8 +402,8 @@
             </div>
         </div><hr class="border-0 border-t border-[#F5EFE6]/20 mt-10">
         <div class="text-[#B8B2AA] text-xs pt-10 text-center">
-            <p>© 2024 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
+            <p>© 2026 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
         </div>
-    </footer>
+    </footer>    --responsive
 </body>
 </html>
