@@ -5,45 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Baithak CAFÉ</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   </head>
   <body class="bg-[#131110]">
-    <header class="w-full m-auto sticky top-0 z-1 bg-[#131110]">
-      <div class="max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-10 py-5 border-b border-[#F7941D]/20">
+    
+   <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
+    <div class="max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
         <div>
-          <a href=""><img class="w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png" alt="Logo"/></a>
+            <a href=""><img class="w-[150px] lg:w-[180px] h-auto" src="images/logo.png" alt="Logo"></a>
         </div>
-        <div>
-          <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
-            <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a>
-            </li>
-            <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a>
-            </li>
-            <li><a href="gallery.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a>
-            </li>
-            <li>
-              <a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a>
-            </li>
-          </ul>
-        </div>
+        
         <div class="hidden md:block">
-          <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">
-            <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
+            <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
+                <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
+                <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
+                <li><a href="gallery.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
+                <li><a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
+            </ul>
         </div>
-      </div>
-    </header>
-    <!--responsive -->
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-[#E68A4D]"></i>
+        </div>
+
+        <div class="hidden lg:block">
+            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">
+                <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE
+            </button>
+        </div>
+    </div>
+</header>
 
     <section class="max-w-[1440px] m-auto bg-[#131110] px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
       <div>
@@ -72,16 +68,11 @@
           <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">smothies</li>
           <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300"> wraps</li>
         </ul>
-      </div>     ---responsive
+      </div>     
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10 px-5 md:px-0">
-        <div class="w-full rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden"
-        >
-          <img
-            class="w-full h-[258px]"
-            src="images\Creamy Tomato Basil Soup with Garlic Bread.jpg"
-            alt=""
-          />
+        <div class="w-full rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+          <img class="w-full h-[258px]" src="images\Creamy Tomato Basil Soup with Garlic Bread.jpg" alt=""/>
           <div class="w-full bg-[#211A17] p-4">
             <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">
               Tomato Basil Soup
@@ -1189,7 +1180,6 @@
         </div>
       </div>
     </section>
-    --responsive
 
     <section
       class="max-w-[1440px] mx-auto bg-[#E7DED2] py-[90px] px-[80px] text-center mt-30"
@@ -1292,6 +1282,5 @@
         </p>
       </div>
     </footer>
-    --responsive
   </body>
 </html>

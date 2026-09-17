@@ -14,12 +14,13 @@
 </head>
 <body class="bg-[#131110] ">
 
-   <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
-        <div class= "max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-10 py-5 border-b border-[#F7941D]/20">
-            <div>
-           <a href=""><img class="w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png"alt="Logo" ></a>
-        </div>
+    <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
+    <div class="max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
         <div>
+            <a href=""><img class="w-[150px] lg:w-[180px] h-auto" src="images/logo.png" alt="Logo"></a>
+        </div>
+        
+        <div class="hidden md:block">
             <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
                 <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
                 <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
@@ -27,11 +28,18 @@
                 <li><a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
-        <div class="hidden md:block">
-            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300"> <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-[#E68A4D]"></i>
         </div>
+
+        <div class="hidden lg:block">
+            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">
+                <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE
+            </button>
         </div>
-    </header>   <!--responsive -->
+    </div>
+</header>
 
 
     <section class="max-w-[1440px] m-auto bg-[#131110] px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] text-center ">
@@ -49,47 +57,70 @@
 
         
     <section class="max-w-[1440px] m-auto">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <img class="col-span-2 row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery4.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery2.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery1.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery3.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery5.jpg" alt="">
-            <img class="col-span-2 w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery6.jpg" alt="">
-            <img class="col-span-2 w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery30.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery31.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery32.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery7.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery8.jpg" alt="">
-            <img class="col-span-2 w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery10.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery9.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery25.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery26.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery27.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery11.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery12.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery13.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery14.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery15.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery16.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery17.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery18.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery19.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px]rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery21.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery23.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery24.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery38.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery40.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery33.jpg" alt="">
-            <img class="row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery34.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery35.jpg" alt="">
-            <img class="w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery36.jpg" alt="">
-            <img class="col-span-2 row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery37.jpg" alt="">
-            <img class="col-span-2 row-span-2 w-full h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery39.jpg" alt="">
+        <div class="grid grid-cols-1  md:grid-cols-4 gap-4">
+            <img class="col-span-2 row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery4.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery31.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery32.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery7.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery10.jpg" alt="">
+            <img class=" w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery9.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery11.jpg" alt="">
+            <img class="col-span-2 w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery12.jpg" alt="">
+            <img class="col-span-2 row-span-2 w-full h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery13.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery14.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery15.jpg" alt="">
+            <img class="w-full  h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery35.jpg" alt="">
+            <img class=" w-full  h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery2.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery3.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery30.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery36.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery37.jpg" alt="">
         </div>
     </section>
 
-    <footer class="max-w-[1440px] m-auto bg-[#1C1917] px-5 md:px-[40px] py-[40px] lg:px-[50px] lg:py-[80px]">
+    <section class="max-w-[1440px] m-auto mt-40 text-center">
+        <div class="mb-20">
+        <h1 class="font-['Playfair_Display'] text-[#F5EFE6] mt-2 md:mt-4 text-4xl md:text-6xl lg:text-7xl ">DARK & MOODY</h1>
+        <p class="font-['Poppins'] text-[#B8B2AA] text-base max-w-[650px] mx-auto mt-6 leading-7">Experience the richer side of our space, where soft lighting, deep tones, and intimate corners create a relaxed evening atmosphere.</p>
+        <div class="w-40 h-[3px] mx-auto mt-6 rounded-full bg-gradient-to-r from-transparent via-[#E68A4D] to-transparent"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery16.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery17.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery18.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery19.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery24.jpg" alt="">
+            <img class="col-span-2 row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover " src="images\gallery39.jpg" alt="">
+            <img class="row-span-2 w-full  h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery38.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery40.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="max-w-[1440px] m-auto mt-10 md:mt-40 text-center">
+        <div class="mb-20">
+        <h1 class="font-['Playfair_Display'] text-[#F5EFE6] mt-2 md:mt-4 text-4xl md:text-6xl lg:text-7xl ">FOOD & COFFEE</h1>
+        <p class="font-['Poppins'] text-[#B8B2AA] text-base max-w-[650px] mx-auto mt-6 leading-7">A closer look at the flavors we love—from beautifully plated dishes to freshly brewed coffee, every creation is made to be enjoyed.</p>
+        <div class="w-40 h-[3px] mx-auto mt-6 rounded-full bg-gradient-to-r from-transparent via-[#E68A4D] to-transparent"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery21.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery8.jpg" alt="">
+            <img class="w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery23.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery25.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery26.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery27.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery33.jpg" alt="">
+            <img class="row-span-2 w-full h-auto md:h-[300px] lg:h-[520px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\gallery34.jpg" alt="">
+            <img class=" w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\Mix.jpg" alt="">
+            <img class=" w-full h-auto md:h-[150px] lg:h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images\A mouthwatering burger with all the fixings _ Premium AI-generated image.jpg" alt="">
+            
+            
+        </div>
+    </section>
+
+    <footer class="max-w-[1440px] m-auto bg-[#1C1917] px-5 md:px-[40px] py-[40px] lg:px-[50px] lg:py-[80px] mt-20">
         <div class="md:flex gap-20">
             <div class="w-full md:w-[40%] flex flex-col gap-4 text-left">
                 <span class="font-['Playfair_Display'] text-[#F5EFE6] text-4xl tracking-[0.2em] uppercase">THE BAITHAK </span>

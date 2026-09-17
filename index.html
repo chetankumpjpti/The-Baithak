@@ -16,12 +16,13 @@
 
 
 
-    <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
-        <div class= "max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
-            <div>
-           <a href=""><img class="w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png"alt="Logo" ></a>
-        </div>
+<header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
+    <div class="max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
         <div>
+            <a href=""><img class="w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png" alt="Logo"></a>
+        </div>
+        
+        <div class="hidden md:block">
             <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
                 <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
                 <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
@@ -29,11 +30,18 @@
                 <li><a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
-        <div class="hidden md:block">
-            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300"> <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-[#E68A4D]"></i>
         </div>
+
+        <div class="hidden lg:block">
+            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">
+                <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE
+            </button>
         </div>
-    </header>   <!--responsive -->
+    </div>
+</header>
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] ">
         <div class="lg:flex gap-10">
@@ -55,7 +63,7 @@
                 <img class="mt-10 lg:mt-0 w-fit h-auto lg:h-[560px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-101 transition duration-300 z-0"  src="images/image3.jpg" alt="">
             </div>
         </div>
-    </section>      --responsive but md me text sahi se center nhi ho rha
+    </section>      
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[20px] lg:px-[50px] lg:pt-[40px] ">
         <div class="lg:flex justify-between">
@@ -75,7 +83,7 @@
                 <button class="mt-10 border border-[#F5EFE6]/50 text-[#F5EFE6] px-5 py-2 rounded-full font-['Poppins'] font-medium hover:bg-[#F5EFE6] hover:text-[#131110] transition duration-300">  DISCOVER OUR STORY  </button>
             </div>
         </div>
-    </section>   --responsive
+    </section>   
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] ">
         <div class="">
@@ -122,9 +130,9 @@
                 </div>
             </div>
         </div>
-    </section>     --responsive
+    </section>     
 
-    <section class="max-w-[1440px] m-auto px-[20px] py-[20px] lg:px-[50px] lg:py-0 ">
+    <section class="max-w-[1440px] m-auto px-[20px] py-[20px] lg:px-[50px] lg:py-0 lg:pb-30">
         <div class="flex flex-col gap-4 text-center">
             <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">OUR SIGNATURE MENU</span>
             <div class="font-['Playfair_Display'] leading-tight text-4xl md:text-6xl lg:text-7xl ">
@@ -179,7 +187,7 @@
                 </div>
             </div>
         </div>
-    </section>     --responsive
+    </section>    
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="flex flex-col gap-4 text-center">
@@ -203,7 +211,7 @@
             
             <img class="col-span-2 w-full h-[250px] rounded-2xl hover:scale-102 transition duration-300 object-cover" src="images/Coffee Shop (1).jpg" alt="">
         </div>
-    </section>       --responsive
+    </section>      
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="flex flex-col gap-4 text-center">
@@ -284,7 +292,7 @@
             
         </div>
 
-    </section>        --responsive
+    </section>        
 
     <section class="max-w-[1440px] m-auto px-[20px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="lg:flex lg:gap-30">
@@ -349,7 +357,7 @@
                 </form>
             </div>
             </div>
-        </section>    --responsive
+        </section>    
 
     <footer class="max-w-[1440px] m-auto bg-[#1C1917] px-5 md:px-[40px] py-[40px] lg:px-[50px] lg:py-[80px]">
         <div class="md:flex gap-20">
@@ -404,6 +412,6 @@
         <div class="text-[#B8B2AA] text-xs pt-10 text-center">
             <p>© 2026 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
         </div>
-    </footer>    --responsive
+    </footer>    
 </body>
 </html>

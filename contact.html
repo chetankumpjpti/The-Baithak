@@ -15,12 +15,13 @@
 
 <body class="bg-[#131110] ">
 
-    <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
-        <div class= "max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-10 py-5 border-b border-[#F7941D]/20">
-            <div>
-           <a href=""><img class="w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px] h-auto" src="images/logo.png"alt="Logo" ></a>
-        </div>
+   <header class="w-full m-auto sticky top-0 z-1 bg-[#131110] ">
+    <div class="max-w-7xl m-auto flex flex-wrap justify-between items-center gap-4 px-4 md:px-6 lg:px-0 py-5 border-b border-[#F7941D]/20">
         <div>
+            <a href=""><img class="w-[150px] lg:w-[180px] h-auto" src="images/logo.png" alt="Logo"></a>
+        </div>
+        
+        <div class="hidden md:block">
             <ul class="font-['Poppins'] text-[#B5ADA5] font-medium flex gap-4 sm:gap-5 md:gap-7 lg:gap-10">
                 <li><a href="index.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
                 <li><a href="menu.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
@@ -28,11 +29,18 @@
                 <li><a href="contact.html" class="text-xs sm:text-sm md:text-base uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
-        <div class="hidden md:block">
-            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300"> <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE</button>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-[#E68A4D]"></i>
         </div>
+
+        <div class="hidden lg:block">
+            <button class="font-['Poppins'] text-sm text-[#E68A4D] border border-[#E68A4D] px-3 py-2 rounded-xl hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-105 transition duration-300">
+                <i class="fa-duotone fa-solid fa-calendar-days"></i> BOOK A TABLE
+            </button>
         </div>
-    </header>   <!--responsive -->
+    </div>
+</header>
 
     <section class="max-w-[1440px] m-auto bg-[#131110] px-[20px] py-[40px] lg:px-[50px] lg:py-[80px] text-center">
         <div class="flex items-center justify-center gap-4">
@@ -129,7 +137,7 @@
             </div>
         </section>
 
-        <section class="max-w-7xl m-auto my-10 px-5 lg:px-20">
+        <section class="max-w-7xl m-auto my-10">
             <div>
                 <p class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">Visit Us</p>
                 <h2 class="font-[Playfair_Display] text-[#F5EFE6] text-3xl mt-3 ">The Baithak Cafe <br><span class="text-lg">68-A, Saraswati Vihar, Jaipur, Rajasthan
@@ -204,6 +212,6 @@
         <div class="text-[#B8B2AA] text-xs pt-10 text-center">
             <p>© 2026 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
         </div>
-    </footer>    --responsive
+    </footer> 
 </body>
 </html>
